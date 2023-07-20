@@ -1,10 +1,11 @@
-import MovieComponent from "./MovieComponent";
-
+import Colorize from "./Colorize";
+import Counter from "./Counter";
 const App = () => {
   return (
     <div>
-      <h1>Components , Props & State</h1>
-      <MovieComponent />
+      <h1 className="heading">React Hooks - useState</h1>
+      {/* <Colorize /> */}
+      <Counter />
     </div>
   );
 };
