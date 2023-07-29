@@ -1,11 +1,12 @@
-import Greeting from "./Greeting";
-
+import "./App.css";
+import FindUser from "./FindUser";
 const App = () => {
   return (
     <div>
-      <h1 className="heading">React Hooks - useEffect</h1>
-      {/* <Greeting randomMax={8} /> */}
-      hello
+      <h1 className="find-user">React Hooks - customHooks</h1>
+      <h1 className="find-user">Finding Github User</h1>
+
+      <FindUser />
     </div>
   );
 };
